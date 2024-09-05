@@ -44,8 +44,8 @@ A Django-based REST API for managing events such as conferences and meetups. Thi
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/yourusername/event-management-api.git
-    cd event-management-api
+    git clone https://github.com/rodionmaulenov/Events.git
+    cd Events
     ```
 
 2. **Create a `.env` file**:
