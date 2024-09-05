@@ -12,7 +12,6 @@ A Django-based REST API for managing events such as conferences and meetups. Thi
   - [Environment Variables](#environment-variables)
 - [Usage](#usage)
   - [Running the Application](#running-the-application)
-  - [Accessing the Admin Interface](#accessing-the-admin-interface)
   - [API Endpoints](#api-endpoints)
   
 ## Features
@@ -89,10 +88,6 @@ A Django-based REST API for managing events such as conferences and meetups. Thi
 
    Migrations are automatically applied during the Docker container startup through the `entrypoint.sh` script.
 
-#### Accessing the Admin Interface
-
-- Once the containers are running, you can access the Django admin interface at: `http://localhost:8000/admin/`
-- Log in using the superuser credentials specified in your `.env` file.
 
 #### API Endpoints
 
